@@ -50,7 +50,7 @@ export default function Resolvers() {
       signUp(root, args, context) {
         return Users.create(args);
       },
-      loggin(root, { email, password }, context) {
+      login(root, { email, password }, context) {
         return Auth.authenticate({
           type: 'local',
           email,

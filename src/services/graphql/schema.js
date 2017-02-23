@@ -45,7 +45,7 @@ type RootMutation {
     password: String!
   ): User
 
-  loggin (
+  login (
     email: String!
     password: String!
   ): Authorized
