@@ -1,17 +1,9 @@
 {
   "name": "taco-apollo",
-  "description": "",
-  "version": "0.0.0",
-  "homepage": "",
+  "version": "0.1.0",
   "main": "src/",
-  "keywords": [
-    "feathers"
-  ],
   "license": "MIT",
-  "repository": {},
-  "author": {},
-  "contributors": [],
-  "bugs": {},
+  "repository": "https://github.com/benawad/taco-apollo-auth.git",
   "engines": {
     "node": ">= 0.12.0"
   },
@@ -54,5 +46,6 @@
     "jshint": "^2.9.4",
     "mocha": "^3.2.0",
     "request": "^2.79.0"
-  }
+  },
+  "author": "ben awad <benawad97@gmail.com>"
 }
